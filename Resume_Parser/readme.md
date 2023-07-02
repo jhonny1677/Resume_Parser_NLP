@@ -49,18 +49,18 @@ After completing the installation steps, you can use the Resume Parser NLP tool 
 2. Run the `resume_parser.py` script to start the parsing process:
 
     ```
-    `python resume_parser.py`
+    `python engine.py`
     ```
 
 3. The script will process all the resumes in the `resumes` directory and extract the relevant information.
 
 4. The parsed information will be saved as JSON files in the `output` directory.
 
-5. You can customize the output format and fields in the `resume_parser.py` script based on your requirements.
+5. You can customize the output format and fields in the `engine.py` script based on your requirements.
 
 ## Data
 
-The resumes to be parsed should be placed in the `resumes` directory. Make sure the resumes are in PDF format for accurate parsing. You can add or remove resumes from this directory as needed.
+The resumes to be parsed should be placed in the `output` directory. Make sure the resumes are in PDF format for accurate parsing. You can add or remove resumes from this directory as needed.
 
 ## Methods
 
@@ -71,7 +71,7 @@ The Resume Parser NLP tool utilizes various NLP techniques for information extra
 - Regular Expressions: Pattern matching for extracting specific information.
 - Custom Rules: Additional rules and heuristics for specific data extraction.
 
-The `resume_parser.py` script provides the implementation of these methods along with relevant comments and explanations.
+The `enginw.py` script provides the implementation of these methods along with relevant comments and explanations.
 
 ## Results
 
